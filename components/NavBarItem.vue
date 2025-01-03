@@ -27,6 +27,5 @@ const isActive = computed(() => route.path === props.path)
 
 watch(route, () => {
   isActive.value = route.path === props.path
-  console.log(isActive.value)
 })
 </script>
